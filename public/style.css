@@ -108,13 +108,41 @@ div {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 3fr 2fr;
   grid-template-areas:
     "image1   image2"
     "logo     logo"
     "image3   image4";
 
   margin-bottom: 4rem;
+}
+
+.hero-image .image-1 {
+  background-image: url("./assets/images/hero-image1.jpg");
+  background-size: cover;
+}
+
+.hero-image .image-2 {
+  background-image: url("./assets/images/hero-image2.jpg");
+  background-size: cover;
+}
+
+.hero-image .logo {
+  grid-area: logo;
+  background-image: url("./assets/images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero-image .image-3 {
+  background-image: url("./assets/images/hero-image3.jpg");
+  background-size: cover;
+}
+
+.hero-image .image-4 {
+  background-image: url("./assets/images/hero-image4.jpg");
+  background-size: cover;
 }
 
 .hero-image .logo {
