@@ -13,6 +13,7 @@
   --color-ligth-grey: #b2b2b2;
   --color-white: #ffffff;
   --font: "Zilla Slab", serif;
+  --swiper-theme-color: #461608;
 }
 
 /* ************ RESET ********* */
@@ -152,4 +153,40 @@ div {
 
 h1 {
   text-align: center;
+  margin-bottom: 1rem;
+}
+
+.promotions {
+  padding: 3rem 0;
+  border-top: dashed 2px var(--color-text-first);
+  border-bottom: dashed 2px var(--color-text-first);
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  padding: 1rem;
 }
