@@ -162,9 +162,11 @@ h1 {
   border-bottom: dashed 2px var(--color-text-first);
 }
 
+/* slider styles */
+
 .swiper-container {
   width: 100%;
-  height: 300px;
+  height: calc(100vw - 100px);
 }
 
 .swiper-slide {
@@ -188,5 +190,23 @@ h1 {
 }
 
 .swiper-pagination {
-  padding: 1rem;
+  padding: 1rem 0;
+}
+
+.swiper-button-next {
+  outline: none;
+}
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: url("./assets/images/arrow-nxt.svg");
+}
+
+.swiper-button-prev {
+  outline: none;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: url("./assets/images/arrow.svg");
 }
