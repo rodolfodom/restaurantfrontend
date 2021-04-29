@@ -210,3 +210,41 @@ h1 {
 .swiper-container-rtl .swiper-button-next:after {
   content: url("./assets/images/arrow.svg");
 }
+
+/* dishes section styles */
+
+.dishes-title {
+  padding-left: 3rem;
+}
+
+.dishes > div {
+  margin: 3rem 0;
+}
+
+.dish-card {
+  background-color: var(--color-yellow);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  border: dashed 2px var(--color-text-first);
+}
+
+.dish-card p {
+  margin: 0;
+}
+
+.price {
+  color: var(--color-red);
+}
+
+footer {
+  background-color: var(--color-ligth-grey);
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer img {
+  width: calc(100% - 2rem);
+}

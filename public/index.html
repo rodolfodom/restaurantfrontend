@@ -48,8 +48,53 @@
             </div>
         </article>
     </section>
+    <section class="dishes">
+        <div class="tacos">
+            <h2 class="dishes-title">Tacos</h2>
+        </div>
+        <div class="drinks">
+            <h2 class="dishes-title">Bebidas</h2>
+        </div>
+    </section>
     <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+<<<<<<< HEAD
     <script src="./main.js" type="module"></script>
+=======
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                dynamicBullets: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script src="./main.js"></script>
+    <footer>
+        <img src="./assets/images/logo.png" alt="mexican tacos logo">
+        <p>Una calle #7, una colonia, una ciudad, cp. 00000 un estado, un país.</p>
+        <p>tel: 55 5555 5555</p>
+    </footer>
+>>>>>>> dishes
 </body>
+<template id="food-card-template">
+    <figure class="dish-card">
+        <img>
+        <figcaption>
+            <h3></h3>
+            <p></p>
+            <h3 class="price"></h3>
+        </figcaption>
+    </figure>
+</template>
 
 </html>
