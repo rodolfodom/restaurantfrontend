@@ -213,11 +213,12 @@ h1 {
 
 /* dishes section styles */
 
-.dishes-title {
+.menu-section-title {
   padding-left: 3rem;
+  text-transform: capitalize;
 }
 
-.dishes > div {
+.categories > div {
   margin: 3rem 0;
 }
 
